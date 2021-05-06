@@ -11,6 +11,10 @@ import java.util.logging.Logger;
 public class Main {
 
     public static void main(String[] args) {
+
+        /**
+         * Creo istanza server jett che mette in ascolto sulla porta 8000 il server
+         */
         Server server = new Server(8000);
 
         ServletContextHandler ctx = new ServletContextHandler(ServletContextHandler.NO_SESSIONS);
